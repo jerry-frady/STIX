@@ -1,0 +1,578 @@
+{
+    "id": "bundle--c90fc61c-c0e2-467f-ab71-b95d910ecd1f",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "name": "Splunk_SysMon",
+            "identity_class": "events",
+            "type": "identity",
+            "id": "identity--be2ab062-f8e3-4dbe-aaaf-8fedf4af1611",
+            "created": "2020-06-16T01:17:54.989Z",
+            "modified": "2020-06-16T01:17:54.989Z"
+        },
+        {
+            "id": "observed-data--0947f54a-7b5b-467f-9d8a-fe61f97e87d2",
+            "number_observed": 1,
+            "first_observed": "2020-06-16T01:17:54.99021Z",
+            "last_observed": "2020-06-16T01:17:54.99022Z",
+            "objects": {
+                "0": {
+                    "name": "Injector",
+                    "hashes": {
+                        "SHA-256": "786b5266ae016683f13abe07cb1e99c01b2d617d3ca7518da086571d9f158d1b"
+                    },
+                    "type": "file"
+                },
+                "1": {
+                    "user_id": "GinniR",
+                    "type": "DB_Admin"
+                },
+                "2": {
+                    "value": "192.168.10.69",
+                    "type": "ipv4-addr"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-16T01:17:54.990Z",
+            "modified": "2020-06-16T01:17:54.990Z"
+        },
+        {
+            "id": "observed-data--c2f534d8-fad9-470f-ac1d-140e96caab51",
+            "number_observed": 1,
+            "first_observed": "2020-06-16T01:17:54.991357Z",
+            "last_observed": "2020-06-16T01:17:54.991362Z",
+            "objects": {
+                "0": {
+                    "name": "bbzgvqwzmnfhfiq.exe",
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "type": "file"
+                },
+                "1": {
+                    "user_id": "54e0439b83cf4454b38964befcda308c",
+                    "type": "user-account"
+                },
+                "2": {
+                    "value": "156.53.34.69",
+                    "type": "ipv4-addr"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-16T01:17:54.991Z",
+            "modified": "2020-06-16T01:17:54.991Z"
+        },
+        {
+            "id": "observed-data--2e6a44f7-ae33-4983-9a3c-d5755806406d",
+            "number_observed": 1,
+            "first_observed": "2020-06-16T01:17:54.992327Z",
+            "last_observed": "2020-06-16T01:17:54.992331Z",
+            "objects": {
+                "0": {
+                    "name": "bbvl.exe",
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "type": "file"
+                },
+                "1": {
+                    "user_id": "e992ba46e7374dc5a10f62c8765e22fd",
+                    "type": "user-account"
+                },
+                "2": {
+                    "value": "126.223.200.70",
+                    "type": "ipv4-addr"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-16T01:17:54.992Z",
+            "modified": "2020-06-16T01:17:54.992Z"
+        },
+        {
+            "id": "observed-data--02fb9e1a-697c-437b-97ca-7f6fef86febc",
+            "number_observed": 1,
+            "first_observed": "2020-06-16T01:17:54.993273Z",
+            "last_observed": "2020-06-16T01:17:54.993277Z",
+            "objects": {
+                "0": {
+                    "name": "skcrossicffjyx.exe",
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "type": "file"
+                },
+                "1": {
+                    "user_id": "011436e1b47f43deb55e8185d6bb02f4",
+                    "type": "user-account"
+                },
+                "2": {
+                    "value": "84.36.217.117",
+                    "type": "ipv4-addr"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-16T01:17:54.993Z",
+            "modified": "2020-06-16T01:17:54.993Z"
+        },
+        {
+            "id": "observed-data--2094cfda-f068-45a0-9793-3e05d2644245",
+            "number_observed": 1,
+            "first_observed": "2020-06-16T01:17:54.994247Z",
+            "last_observed": "2020-06-16T01:17:54.994251Z",
+            "objects": {
+                "0": {
+                    "name": "pvzsu.exe",
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "type": "file"
+                },
+                "1": {
+                    "user_id": "c3c66c4ad9ff452ebac379e5043e98ac",
+                    "type": "user-account"
+                },
+                "2": {
+                    "value": "204.40.6.186",
+                    "type": "ipv4-addr"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-16T01:17:54.994Z",
+            "modified": "2020-06-16T01:17:54.994Z"
+        }
+    ],
+    "type": "bundle"
+}
+{
+    "_id": "b7c593efdf7801e3e578aa37fd0c9863",
+    "_rev": "1-7cb6facabd499204ed0d80981397821a",
+    "id": "observed-data--80596f74-3180-4755-bd85-185c45ed8d45",
+    "type": "observed-data",
+    "created_by_ref": "identity--a2db2859-7c74-403b-a4d8-83583700e6cf",
+    "created": "2020-06-16T01:04:51.933Z",
+    "modified": "2020-06-16T01:04:51.933Z",
+    "objects": {
+        "0": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "1": {
+            "type": "network-traffic",
+            "dst_byte_count": 1280876987,
+            "dst_ref": "2",
+            "dst_packets": 3269,
+            "dst_port": 25,
+            "protocols": [
+                "udp"
+            ],
+            "src_byte_count": 1280876987,
+            "src_ref": "3",
+            "src_packets": 3269,
+            "src_port": 32684
+        },
+        "2": {
+            "type": "ipv4-addr",
+            "value": "66.67.68.69"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "192.168.10.69"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "application_id": "1004",
+        "category_name": "Mail",
+        "credibility": 5,
+        "domain_id": 0,
+        "first_packet_time": "1592269283224",
+        "direction": "L2R",
+        "flow_interface_id": [
+            "55"
+        ],
+        "flow_source": [
+            "QRadar"
+        ],
+        "geographic": "NorthAmerica.UnitedStates",
+        "flow_interface": [
+            "QRadar:default_Netflow_192_168_200_165"
+        ],
+        "last_packet_time": "1592269288960",
+        "event_name": "Mail.SMTP",
+        "qid": 53250006,
+        "relevance": 6,
+        "severity": 1
+    },
+    "first_observed": "2020-06-16T01:01:23.224Z",
+    "last_observed": "2020-06-16T01:02:23.224Z",
+    "number_observed": 1
+}
+{
+    "_id": "b7c593efdf7801e3e578aa37fd0ccde5",
+    "_rev": "1-ec9cc329e4d3bf68df6d487b0111dfdf",
+    "id": "observed-data--c14c0cf0-f754-4a28-a10f-20af417a94d1",
+    "type": "observed-data",
+    "created_by_ref": "identity--a2db2859-7c74-403b-a4d8-83583700e6cf",
+    "created": "2020-06-16T02:12:10.914Z",
+    "modified": "2020-06-16T02:12:10.914Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "192.168.10.69",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 4356,
+            "dst_ref": "3",
+            "dst_port": 1433,
+            "protocols": [
+                "udp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "10.32.45.94",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "artifact",
+            "payload_bin": "TG9jYWwgRGF0YWJhc2UgU2Nhbm5lciBEZXRlY3RlZCAtIFRhcmdldGVkQXR0YWNrIChFeHAgQ2Vu\ndGVyKQlEZXRlY3RlZCBhIHNjYW4gZnJvbSBhIGxvY2FsIGhvc3QgYWdhaW5zdCBvdGhlciBsb2Nh\nbCBvciByZW1vdGUgdGFyZ2V0cy4gQXQgbGVhc3QgMzAgaG9zdHMgd2VyZSBzY2FubmVkIGluIDEw\nIG1pbnV0ZXMuIA=="
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Local Database Scanner Detected - TargetedAttack (Exp Center)",
+        "qid": 67500707,
+        "category_name": "Database Reconnaissance",
+        "category_id": 1013,
+        "high_level_category_name": "Recon",
+        "high_level_category_id": 1000,
+        "log_source_id": 63,
+        "log_source_type_name": "Device type 63",
+        "log_source_name": "Custom Rule Engine-8 :: QRadar",
+        "direction": "L2L",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 7,
+        "severity": 3,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "other",
+        "cre_event_list": [
+            "122989",
+            "100132",
+            "100131",
+            "100033",
+            "100009",
+            "105739",
+            "100227",
+            "100225",
+            "100221",
+            "100272",
+            "100215",
+            "120739"
+        ],
+        "rule_names": [
+            "EC: Targeted - Local L2L Database Scanner",
+            "BB:CategoryDefinition: Recon Event Categories",
+            "BB:CategoryDefinition: Recon Events",
+            "BB:ProtocolDefinition: Windows Protocols",
+            "BB:PortDefinition: Database Ports",
+            "BB:CategoryDefinition: Source IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "Load Basic Building Blocks",
+            "Context is Local to Local",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region"
+        ],
+        "domain_id": 0,
+        "device_type_name": "Custom Rule Engine",
+        "device_type": 18
+    },
+    "first_observed": "2020-06-16T01:59:07.155Z",
+    "last_observed": "2020-06-16T01:59:07.155Z",
+    "number_observed": 1,
+    "x_com_ibm_finding": {
+        "name": "Local Database Scanner Detected - TargetedAttack (Exp Center)",
+        "description": "Detected a scan from a local host against other local or remote targets. At least 30 hosts were scanned in 10 minutes. "
+    }
+}
+{
+    "_id": "b7c593efdf7801e3e578aa37fd0cee90",
+    "_rev": "1-6cdf95b573442a36be96174037df40c6",
+    "id": "observed-data--12d90bd6-0751-4915-a4ba-e792da0e98ca",
+    "type": "observed-data",
+    "created_by_ref": "identity--a2db2859-7c74-403b-a4d8-83583700e6cf",
+    "created": "2020-06-16T02:12:10.924Z",
+    "modified": "2020-06-16T02:12:10.924Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "192.168.10.69",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 0,
+            "dst_ref": "3",
+            "dst_port": 0,
+            "protocols": [
+                "reserved"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "10.32.45.67",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "user-account",
+            "user_id": "GinniR"
+        },
+        "6": {
+            "type": "artifact",
+            "payload_bin": "PDEyNT5KdW4gMTYgMDM6NTk6MjggMTAuMzIuNDUuNjcgPDEzPlNlcCAwOSAxNToyODoxMSBtaWNy\nb3NvZnQud2luZG93cy50ZXN0LmNvbSBBZ2VudERldmljZT1XaW5kb3dzTG9nCUFnZW50TG9nRmls\nZT1BcHBsaWNhdGlvbglTb3VyY2U9TVNTUUwkVFJFSwlDb21wdXRlcj1HaW5uaV9MYXB0b3AJVXNl\ncj0JRG9tYWluPQlFdmVudElEPTMyMjEyNDM5MjMJRXZlbnRJRENvZGU9MTg0NTEJRXZlbnRUeXBl\nPTQJRXZlbnRDYXRlZ29yeT0JUmVjb3JkTnVtYmVyPTI0ODAwCVRpbWVHZW5lcmF0ZWQ9MjAxMDA5\nMDkxOTI4MTMuMDAwMDAwLTAwMAlUaW1lV3JpdHRlbj0yMDEwMDkwOTE5MjgxMy4wMDAwMDAtMDAw\nCU1lc3NhZ2U9TG9naW4gZmFpbGVkIGZvciB1c2VyICdHaW5uaVInLiBPbmx5IGFkbWluaXN0cmF0\nb3JzIG1heSBjb25uZWN0IGF0IHRoaXMgdGltZS4gW0NMSUVOVDogMTkyLjE2OC4xMC42OV0K"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "MSSQL Login failed for user",
+        "qid": 5001203,
+        "category_name": "Database Login Failed",
+        "category_id": 3076,
+        "high_level_category_name": "Authentication",
+        "high_level_category_id": 3000,
+        "log_source_id": 1012,
+        "log_source_type_name": "Device type 1012",
+        "log_source_name": "WindowsAuthServer @ 10.32.45.67",
+        "direction": "L2L",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 7,
+        "severity": 3,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "other",
+        "cre_event_list": [
+            "100265",
+            "100063",
+            "105739",
+            "100227",
+            "100225",
+            "100221",
+            "100272",
+            "100215",
+            "100789",
+            "100739",
+            "120739"
+        ],
+        "rule_names": [
+            "BB:DeviceDefinition: Operating System",
+            "BB:CategoryDefinition: Authentication Failures",
+            "BB:CategoryDefinition: Source IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "Load Basic Building Blocks",
+            "Context is Local to Local",
+            "BB:UBA : Common Log Source Filters",
+            "BB:UBA : Common Event Filters",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region"
+        ],
+        "domain_id": 0,
+        "device_type_name": "Microsoft Windows Security Event Log",
+        "device_type": 12
+    },
+    "first_observed": "2020-06-16T01:59:29.770Z",
+    "last_observed": "2020-06-16T01:59:29.770Z",
+    "number_observed": 1
+}
+{
+    "_id": "db5ded3fef9a29382b720d786d09d4c0",
+    "_rev": "1-bd4ee21c1c4d58948f6f92a788cd3fce",
+    "id": "observed-data--3780cbea-66dc-4ed3-9654-5878a9230bec",
+    "type": "observed-data",
+    "created_by_ref": "identity--a2db2859-7c74-403b-a4d8-83583700e6cf",
+    "created": "2020-06-16T02:12:09.987Z",
+    "modified": "2020-06-16T02:12:09.987Z",
+    "objects": {
+        "0": {
+            "type": "software",
+            "name": "DataWarehousing.MSSQLServer"
+        },
+        "1": {
+            "type": "ipv4-addr",
+            "value": "10.32.45.180"
+        },
+        "2": {
+            "type": "network-traffic",
+            "dst_ref": "1",
+            "dst_port": 1433,
+            "protocols": [
+                "udp"
+            ],
+            "src_byte_count": 7360,
+            "src_ref": "3",
+            "src_packets": 115,
+            "src_port": 0
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "192.168.10.69"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "application_id": "10002",
+        "category_name": "Data Warehousing",
+        "credibility": 10,
+        "domain_id": 0,
+        "first_packet_time": "1592272706669",
+        "direction": "L2L",
+        "flow_interface_id": [
+            "55"
+        ],
+        "flow_source": [
+            "QRadar"
+        ],
+        "geographic": "other",
+        "flow_interface": [
+            "QRadar:default_Netflow_192_168_200_165"
+        ],
+        "last_packet_time": "1592272729987",
+        "event_name": "DataWarehousing.MSSQLServer",
+        "qid": 53250003,
+        "relevance": 10,
+        "severity": 3
+    },
+    "first_observed": "2020-06-16T01:58:26.669Z",
+    "last_observed": "2020-06-16T02:00:26.669Z",
+    "number_observed": 1
+}
+{
+    "_id": "b7c593efdf7801e3e578aa37fd0d12ac",
+    "_rev": "1-23eeb0eb76f0bfdacefdfd5cf73b706c",
+    "id": "observed-data--cbaa0c0b-447e-4b03-9716-bba96474edf4",
+    "type": "observed-data",
+    "created_by_ref": "identity--a2db2859-7c74-403b-a4d8-83583700e6cf",
+    "created": "2020-06-16T02:12:10.934Z",
+    "modified": "2020-06-16T02:12:10.935Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "192.168.10.69",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 2290,
+            "dst_ref": "3",
+            "dst_port": 0,
+            "protocols": [
+                "reserved"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "10.32.45.67",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "user-account",
+            "user_id": "JohnDoe"
+        },
+        "6": {
+            "type": "artifact",
+            "payload_bin": "PDEyNT5KdW4gMTYgMDM6NTg6MjMgMTAuMzIuNDUuNjcgPDEzPlNlcCAxNiAxNzozMzowNSAkJGRl\nc3RpbmF0aW9uaXAkJCBBZ2VudERldmljZT1XaW5kb3dzTG9nCUFnZW50TG9nRmlsZT1TZWN1cml0\neQlTb3VyY2U9TWljcm9zb2Z0LVdpbmRvd3MtU2VjdXJpdHktQXVkaXRpbmcJQ29tcHV0ZXI9R2lu\nbmlfTGFwdG9wCVVzZXI9IAlEb21haW49IAlFdmVudElEPTQ2MjQJRXZlbnRJRENvZGU9NDYyNAlF\ndmVudFR5cGU9OAlFdmVudENhdGVnb3J5PTEyNTQ0CVJlY29yZE51bWJlcj0zOTY2OTYJVGltZUdl\nbmVyYXRlZD0xNTkyMzU4NjA3CVRpbWVXcml0dGVuPTE1OTIzNTg2MDcJTWVzc2FnZT1BbiBhY2Nv\ndW50IHdhcyBzdWNjZXNzZnVsbHkgbG9nZ2VkIG9uLiAgU3ViamVjdDogIFNlY3VyaXR5IElEOiAg\nTlVMTCBTSUQgIEFjY291bnQgTmFtZTogIC0gIEFjY291bnQgRG9tYWluOiAgLSAgTG9nb24gSUQ6\nICAweDAgIExvZ29uIFR5cGU6ICAgMiAgTmV3IExvZ29uOiAgU2VjdXJpdHkgSUQ6ICBBQ01FXEpv\naG5Eb2UgIEFjY291bnQgTmFtZTogIEpvaG5Eb2UgIEFjY291bnQgRG9tYWluOiAgQUNNRSAgTG9n\nb24gSUQ6ICAweDE4NzhkZiAgTG9nb24gR1VJRDogIHtERURFRTBCNi1FNUVGLTg0MjMtQ0U0Mi0z\nNTA3QUYyMEEyMzR9ICBQcm9jZXNzIEluZm9ybWF0aW9uOiAgUHJvY2VzcyBJRDogIDB4MCAgUHJv\nY2VzcyBOYW1lOiAgLSAgTmV0d29yayBJbmZvcm1hdGlvbjogIFdvcmtzdGF0aW9uIE5hbWU6IEdp\nbm5pX0xhcHRvcCAgU291cmNlIE5ldHdvcmsgQWRkcmVzczogMTkyLjE2OC4xMC42OSAgU291cmNl\nIFBvcnQ6ICAyMjkwICBEZXRhaWxlZCBBdXRoZW50aWNhdGlvbiBJbmZvcm1hdGlvbjogIExvZ29u\nIFByb2Nlc3M6ICBLZXJiZXJvcyAgQXV0aGVudGljYXRpb24gUGFja2FnZTogS2VyYmVyb3MgIFRy\nYW5zaXRlZCBTZXJ2aWNlczogLSAgUGFja2FnZSBOYW1lIChOVExNIG9ubHkpOiAtICBLZXkgTGVu\nZ3RoOiAgMCAgVGhpcyBldmVudCBpcyBnZW5lcmF0ZWQgd2hlbiBhIGxvZ29uIHNlc3Npb24gaXMg\nY3IK"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Success Audit: An account was successfully logged on",
+        "qid": 5000830,
+        "category_name": "User Login Success",
+        "category_id": 3115,
+        "high_level_category_name": "Authentication",
+        "high_level_category_id": 3000,
+        "log_source_id": 1012,
+        "log_source_type_name": "Device type 1012",
+        "log_source_name": "WindowsAuthServer @ 10.32.45.67",
+        "direction": "L2L",
+        "identity_ip": "192.168.10.69",
+        "magnitude": 6,
+        "severity": 1,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "other",
+        "cre_event_list": [
+            "100265",
+            "100005",
+            "105739",
+            "100227",
+            "100225",
+            "100068",
+            "100221",
+            "100272",
+            "100215",
+            "100789",
+            "100739",
+            "120739",
+            "123339"
+        ],
+        "rule_names": [
+            "BB:DeviceDefinition: Operating System",
+            "BB:CategoryDefinition: Authentication Success",
+            "BB:CategoryDefinition: Source IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Login Successful After Scan Attempt",
+            "Destination Asset Weight is Low",
+            "Load Basic Building Blocks",
+            "Context is Local to Local",
+            "BB:UBA : Common Log Source Filters",
+            "BB:UBA : Common Event Filters",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "EC: User Account - Add Account Name to EC UserAccountUsed"
+        ],
+        "domain_id": 0,
+        "device_type_name": "Microsoft Windows Security Event Log",
+        "device_type": 12
+    },
+    "first_observed": "2020-06-16T01:58:24.613Z",
+    "last_observed": "2020-06-16T01:58:24.613Z",
+    "number_observed": 1
+}
