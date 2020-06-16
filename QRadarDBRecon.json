@@ -96,6 +96,6 @@
         "name": "Local Database Scanner Detected - TargetedAttack (Exp Center)",
         "description": "Detected a scan from a local host against other local or remote targets. At least 30 hosts were scanned in 10 minutes. "
     }
-  ],
+    ],
     "type": "bundle"
 }
