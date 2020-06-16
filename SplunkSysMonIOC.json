@@ -1,0 +1,145 @@
+{
+    "id": "bundle--c90fc61c-c0e2-467f-ab71-b95d910ecd1f",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "name": "Splunk_SysMon",
+            "identity_class": "events",
+            "type": "identity",
+            "id": "identity--be2ab062-f8e3-4dbe-aaaf-8fedf4af1611",
+            "created": "2020-06-16T01:17:54.989Z",
+            "modified": "2020-06-16T01:17:54.989Z"
+        },
+        {
+            "id": "observed-data--0947f54a-7b5b-467f-9d8a-fe61f97e87d2",
+            "number_observed": 1,
+            "first_observed": "2020-06-16T01:17:54.99021Z",
+            "last_observed": "2020-06-16T01:17:54.99022Z",
+            "objects": {
+                "0": {
+                    "name": "Injector",
+                    "hashes": {
+                        "SHA-256": "786b5266ae016683f13abe07cb1e99c01b2d617d3ca7518da086571d9f158d1b"
+                    },
+                    "type": "file"
+                },
+                "1": {
+                    "user_id": "GinniR",
+                    "type": "DB_Admin"
+                },
+                "2": {
+                    "value": "192.168.10.69",
+                    "type": "ipv4-addr"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-16T01:17:54.990Z",
+            "modified": "2020-06-16T01:17:54.990Z"
+        },
+        {
+            "id": "observed-data--c2f534d8-fad9-470f-ac1d-140e96caab51",
+            "number_observed": 1,
+            "first_observed": "2020-06-16T01:17:54.991357Z",
+            "last_observed": "2020-06-16T01:17:54.991362Z",
+            "objects": {
+                "0": {
+                    "name": "bbzgvqwzmnfhfiq.exe",
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "type": "file"
+                },
+                "1": {
+                    "user_id": "54e0439b83cf4454b38964befcda308c",
+                    "type": "user-account"
+                },
+                "2": {
+                    "value": "156.53.34.69",
+                    "type": "ipv4-addr"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-16T01:17:54.991Z",
+            "modified": "2020-06-16T01:17:54.991Z"
+        },
+        {
+            "id": "observed-data--2e6a44f7-ae33-4983-9a3c-d5755806406d",
+            "number_observed": 1,
+            "first_observed": "2020-06-16T01:17:54.992327Z",
+            "last_observed": "2020-06-16T01:17:54.992331Z",
+            "objects": {
+                "0": {
+                    "name": "bbvl.exe",
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "type": "file"
+                },
+                "1": {
+                    "user_id": "e992ba46e7374dc5a10f62c8765e22fd",
+                    "type": "user-account"
+                },
+                "2": {
+                    "value": "126.223.200.70",
+                    "type": "ipv4-addr"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-16T01:17:54.992Z",
+            "modified": "2020-06-16T01:17:54.992Z"
+        },
+        {
+            "id": "observed-data--02fb9e1a-697c-437b-97ca-7f6fef86febc",
+            "number_observed": 1,
+            "first_observed": "2020-06-16T01:17:54.993273Z",
+            "last_observed": "2020-06-16T01:17:54.993277Z",
+            "objects": {
+                "0": {
+                    "name": "skcrossicffjyx.exe",
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "type": "file"
+                },
+                "1": {
+                    "user_id": "011436e1b47f43deb55e8185d6bb02f4",
+                    "type": "user-account"
+                },
+                "2": {
+                    "value": "84.36.217.117",
+                    "type": "ipv4-addr"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-16T01:17:54.993Z",
+            "modified": "2020-06-16T01:17:54.993Z"
+        },
+        {
+            "id": "observed-data--2094cfda-f068-45a0-9793-3e05d2644245",
+            "number_observed": 1,
+            "first_observed": "2020-06-16T01:17:54.994247Z",
+            "last_observed": "2020-06-16T01:17:54.994251Z",
+            "objects": {
+                "0": {
+                    "name": "pvzsu.exe",
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "type": "file"
+                },
+                "1": {
+                    "user_id": "c3c66c4ad9ff452ebac379e5043e98ac",
+                    "type": "user-account"
+                },
+                "2": {
+                    "value": "204.40.6.186",
+                    "type": "ipv4-addr"
+                }
+            },
+            "type": "observed-data",
+            "created": "2020-06-16T01:17:54.994Z",
+            "modified": "2020-06-16T01:17:54.994Z"
+        }
+    ],
+    "type": "bundle"
+}

@@ -1,0 +1,61 @@
+{
+    "_id": "db5ded3fef9a29382b720d786d09d4c0",
+    "_rev": "1-bd4ee21c1c4d58948f6f92a788cd3fce",
+    "id": "observed-data--3780cbea-66dc-4ed3-9654-5878a9230bec",
+    "type": "observed-data",
+    "created_by_ref": "identity--a2db2859-7c74-403b-a4d8-83583700e6cf",
+    "created": "2020-06-16T02:12:09.987Z",
+    "modified": "2020-06-16T02:12:09.987Z",
+    "objects": {
+        "0": {
+            "type": "software",
+            "name": "DataWarehousing.MSSQLServer"
+        },
+        "1": {
+            "type": "ipv4-addr",
+            "value": "10.32.45.180"
+        },
+        "2": {
+            "type": "network-traffic",
+            "dst_ref": "1",
+            "dst_port": 1433,
+            "protocols": [
+                "udp"
+            ],
+            "src_byte_count": 7360,
+            "src_ref": "3",
+            "src_packets": 115,
+            "src_port": 0
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "192.168.10.69"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "application_id": "10002",
+        "category_name": "Data Warehousing",
+        "credibility": 10,
+        "domain_id": 0,
+        "first_packet_time": "1592272706669",
+        "direction": "L2L",
+        "flow_interface_id": [
+            "55"
+        ],
+        "flow_source": [
+            "QRadar"
+        ],
+        "geographic": "other",
+        "flow_interface": [
+            "QRadar:default_Netflow_192_168_200_165"
+        ],
+        "last_packet_time": "1592272729987",
+        "event_name": "DataWarehousing.MSSQLServer",
+        "qid": 53250003,
+        "relevance": 10,
+        "severity": 3
+    },
+    "first_observed": "2020-06-16T01:58:26.669Z",
+    "last_observed": "2020-06-16T02:00:26.669Z",
+    "number_observed": 1
+}

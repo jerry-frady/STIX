@@ -1,0 +1,105 @@
+{
+    "_id": "b7c593efdf7801e3e578aa37fd0d12ac",
+    "_rev": "1-23eeb0eb76f0bfdacefdfd5cf73b706c",
+    "id": "observed-data--cbaa0c0b-447e-4b03-9716-bba96474edf4",
+    "type": "observed-data",
+    "created_by_ref": "identity--a2db2859-7c74-403b-a4d8-83583700e6cf",
+    "created": "2020-06-16T02:12:10.934Z",
+    "modified": "2020-06-16T02:12:10.935Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "192.168.10.69",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 2290,
+            "dst_ref": "3",
+            "dst_port": 0,
+            "protocols": [
+                "reserved"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "10.32.45.67",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "user-account",
+            "user_id": "JohnDoe"
+        },
+        "6": {
+            "type": "artifact",
+            "payload_bin": "PDEyNT5KdW4gMTYgMDM6NTg6MjMgMTAuMzIuNDUuNjcgPDEzPlNlcCAxNiAxNzozMzowNSAkJGRl\nc3RpbmF0aW9uaXAkJCBBZ2VudERldmljZT1XaW5kb3dzTG9nCUFnZW50TG9nRmlsZT1TZWN1cml0\neQlTb3VyY2U9TWljcm9zb2Z0LVdpbmRvd3MtU2VjdXJpdHktQXVkaXRpbmcJQ29tcHV0ZXI9R2lu\nbmlfTGFwdG9wCVVzZXI9IAlEb21haW49IAlFdmVudElEPTQ2MjQJRXZlbnRJRENvZGU9NDYyNAlF\ndmVudFR5cGU9OAlFdmVudENhdGVnb3J5PTEyNTQ0CVJlY29yZE51bWJlcj0zOTY2OTYJVGltZUdl\nbmVyYXRlZD0xNTkyMzU4NjA3CVRpbWVXcml0dGVuPTE1OTIzNTg2MDcJTWVzc2FnZT1BbiBhY2Nv\ndW50IHdhcyBzdWNjZXNzZnVsbHkgbG9nZ2VkIG9uLiAgU3ViamVjdDogIFNlY3VyaXR5IElEOiAg\nTlVMTCBTSUQgIEFjY291bnQgTmFtZTogIC0gIEFjY291bnQgRG9tYWluOiAgLSAgTG9nb24gSUQ6\nICAweDAgIExvZ29uIFR5cGU6ICAgMiAgTmV3IExvZ29uOiAgU2VjdXJpdHkgSUQ6ICBBQ01FXEpv\naG5Eb2UgIEFjY291bnQgTmFtZTogIEpvaG5Eb2UgIEFjY291bnQgRG9tYWluOiAgQUNNRSAgTG9n\nb24gSUQ6ICAweDE4NzhkZiAgTG9nb24gR1VJRDogIHtERURFRTBCNi1FNUVGLTg0MjMtQ0U0Mi0z\nNTA3QUYyMEEyMzR9ICBQcm9jZXNzIEluZm9ybWF0aW9uOiAgUHJvY2VzcyBJRDogIDB4MCAgUHJv\nY2VzcyBOYW1lOiAgLSAgTmV0d29yayBJbmZvcm1hdGlvbjogIFdvcmtzdGF0aW9uIE5hbWU6IEdp\nbm5pX0xhcHRvcCAgU291cmNlIE5ldHdvcmsgQWRkcmVzczogMTkyLjE2OC4xMC42OSAgU291cmNl\nIFBvcnQ6ICAyMjkwICBEZXRhaWxlZCBBdXRoZW50aWNhdGlvbiBJbmZvcm1hdGlvbjogIExvZ29u\nIFByb2Nlc3M6ICBLZXJiZXJvcyAgQXV0aGVudGljYXRpb24gUGFja2FnZTogS2VyYmVyb3MgIFRy\nYW5zaXRlZCBTZXJ2aWNlczogLSAgUGFja2FnZSBOYW1lIChOVExNIG9ubHkpOiAtICBLZXkgTGVu\nZ3RoOiAgMCAgVGhpcyBldmVudCBpcyBnZW5lcmF0ZWQgd2hlbiBhIGxvZ29uIHNlc3Npb24gaXMg\nY3IK"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Success Audit: An account was successfully logged on",
+        "qid": 5000830,
+        "category_name": "User Login Success",
+        "category_id": 3115,
+        "high_level_category_name": "Authentication",
+        "high_level_category_id": 3000,
+        "log_source_id": 1012,
+        "log_source_type_name": "Device type 1012",
+        "log_source_name": "WindowsAuthServer @ 10.32.45.67",
+        "direction": "L2L",
+        "identity_ip": "192.168.10.69",
+        "magnitude": 6,
+        "severity": 1,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "other",
+        "cre_event_list": [
+            "100265",
+            "100005",
+            "105739",
+            "100227",
+            "100225",
+            "100068",
+            "100221",
+            "100272",
+            "100215",
+            "100789",
+            "100739",
+            "120739",
+            "123339"
+        ],
+        "rule_names": [
+            "BB:DeviceDefinition: Operating System",
+            "BB:CategoryDefinition: Authentication Success",
+            "BB:CategoryDefinition: Source IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Login Successful After Scan Attempt",
+            "Destination Asset Weight is Low",
+            "Load Basic Building Blocks",
+            "Context is Local to Local",
+            "BB:UBA : Common Log Source Filters",
+            "BB:UBA : Common Event Filters",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "EC: User Account - Add Account Name to EC UserAccountUsed"
+        ],
+        "domain_id": 0,
+        "device_type_name": "Microsoft Windows Security Event Log",
+        "device_type": 12
+    },
+    "first_observed": "2020-06-16T01:58:24.613Z",
+    "last_observed": "2020-06-16T01:58:24.613Z",
+    "number_observed": 1
+}

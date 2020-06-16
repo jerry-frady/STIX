@@ -1,0 +1,101 @@
+{
+    "_id": "b7c593efdf7801e3e578aa37fd0cee90",
+    "_rev": "1-6cdf95b573442a36be96174037df40c6",
+    "id": "observed-data--12d90bd6-0751-4915-a4ba-e792da0e98ca",
+    "type": "observed-data",
+    "created_by_ref": "identity--a2db2859-7c74-403b-a4d8-83583700e6cf",
+    "created": "2020-06-16T02:12:10.924Z",
+    "modified": "2020-06-16T02:12:10.924Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "192.168.10.69",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 0,
+            "dst_ref": "3",
+            "dst_port": 0,
+            "protocols": [
+                "reserved"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "10.32.45.67",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "user-account",
+            "user_id": "GinniR"
+        },
+        "6": {
+            "type": "artifact",
+            "payload_bin": "PDEyNT5KdW4gMTYgMDM6NTk6MjggMTAuMzIuNDUuNjcgPDEzPlNlcCAwOSAxNToyODoxMSBtaWNy\nb3NvZnQud2luZG93cy50ZXN0LmNvbSBBZ2VudERldmljZT1XaW5kb3dzTG9nCUFnZW50TG9nRmls\nZT1BcHBsaWNhdGlvbglTb3VyY2U9TVNTUUwkVFJFSwlDb21wdXRlcj1HaW5uaV9MYXB0b3AJVXNl\ncj0JRG9tYWluPQlFdmVudElEPTMyMjEyNDM5MjMJRXZlbnRJRENvZGU9MTg0NTEJRXZlbnRUeXBl\nPTQJRXZlbnRDYXRlZ29yeT0JUmVjb3JkTnVtYmVyPTI0ODAwCVRpbWVHZW5lcmF0ZWQ9MjAxMDA5\nMDkxOTI4MTMuMDAwMDAwLTAwMAlUaW1lV3JpdHRlbj0yMDEwMDkwOTE5MjgxMy4wMDAwMDAtMDAw\nCU1lc3NhZ2U9TG9naW4gZmFpbGVkIGZvciB1c2VyICdHaW5uaVInLiBPbmx5IGFkbWluaXN0cmF0\nb3JzIG1heSBjb25uZWN0IGF0IHRoaXMgdGltZS4gW0NMSUVOVDogMTkyLjE2OC4xMC42OV0K"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "MSSQL Login failed for user",
+        "qid": 5001203,
+        "category_name": "Database Login Failed",
+        "category_id": 3076,
+        "high_level_category_name": "Authentication",
+        "high_level_category_id": 3000,
+        "log_source_id": 1012,
+        "log_source_type_name": "Device type 1012",
+        "log_source_name": "WindowsAuthServer @ 10.32.45.67",
+        "direction": "L2L",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 7,
+        "severity": 3,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "other",
+        "cre_event_list": [
+            "100265",
+            "100063",
+            "105739",
+            "100227",
+            "100225",
+            "100221",
+            "100272",
+            "100215",
+            "100789",
+            "100739",
+            "120739"
+        ],
+        "rule_names": [
+            "BB:DeviceDefinition: Operating System",
+            "BB:CategoryDefinition: Authentication Failures",
+            "BB:CategoryDefinition: Source IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "Load Basic Building Blocks",
+            "Context is Local to Local",
+            "BB:UBA : Common Log Source Filters",
+            "BB:UBA : Common Event Filters",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region"
+        ],
+        "domain_id": 0,
+        "device_type_name": "Microsoft Windows Security Event Log",
+        "device_type": 12
+    },
+    "first_observed": "2020-06-16T01:59:29.770Z",
+    "last_observed": "2020-06-16T01:59:29.770Z",
+    "number_observed": 1
+}
