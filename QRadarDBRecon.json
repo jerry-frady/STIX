@@ -1,7 +1,8 @@
 {
-    "id": "bundle--c90fc61c-c0e2-467f-ab72-b95d910ecd1f",
+    "id": "bundle--c90fc61c-c0e2-467f-ab71-b95d910ecd1f",
     "spec_version": "2.0",
-    "objects": {
+    "objects": [
+	{
         "0": {
             "type": "ipv4-addr",
             "value": "192.168.10.69",
@@ -95,6 +96,6 @@
         "name": "Local Database Scanner Detected - TargetedAttack (Exp Center)",
         "description": "Detected a scan from a local host against other local or remote targets. At least 30 hosts were scanned in 10 minutes. "
     }
-    ],
+  ],
     "type": "bundle"
 }
