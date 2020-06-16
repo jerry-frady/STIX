@@ -1,11 +1,6 @@
 {
-    "_id": "b7c593efdf7801e3e578aa37fd0ccde5",
-    "_rev": "1-ec9cc329e4d3bf68df6d487b0111dfdf",
-    "id": "observed-data--c14c0cf0-f754-4a28-a10f-20af417a94d1",
-    "type": "observed-data",
-    "created_by_ref": "identity--a2db2859-7c74-403b-a4d8-83583700e6cf",
-    "created": "2020-06-16T02:12:10.914Z",
-    "modified": "2020-06-16T02:12:10.914Z",
+    "id": "bundle--c90fc61c-c0e2-467f-ab72-b95d910ecd1f",
+    "spec_version": "2.0",
     "objects": {
         "0": {
             "type": "ipv4-addr",
