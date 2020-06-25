@@ -1,101 +1,99 @@
 {
-    "id": "bundle--c90fc61c-c0e2-467f-ab72-b95d910ecd1f",
-    "spec_version": "2.0",
-    "objects": [
-	{
-        "0": {
-            "type": "ipv4-addr",
-            "value": "192.168.10.69",
-            "resolves_to_refs": [
-                "2"
-            ]
-        },
-        "1": {
-            "type": "network-traffic",
-            "src_ref": "0",
-            "src_port": 4356,
-            "dst_ref": "3",
-            "dst_port": 1433,
-            "protocols": [
-                "udp"
-            ]
-        },
-        "2": {
-            "type": "mac-addr",
-            "value": "00:00:00:00:00:00"
-        },
-        "3": {
-            "type": "ipv4-addr",
-            "value": "10.32.45.94",
-            "resolves_to_refs": [
-                "4"
-            ]
-        },
-        "4": {
-            "type": "mac-addr",
-            "value": "00:00:00:00:00:00"
-        },
-        "5": {
-            "type": "artifact",
-            "payload_bin": "TG9jYWwgRGF0YWJhc2UgU2Nhbm5lciBEZXRlY3RlZCAtIFRhcmdldGVkQXR0YWNrIChFeHAgQ2Vu\ndGVyKQlEZXRlY3RlZCBhIHNjYW4gZnJvbSBhIGxvY2FsIGhvc3QgYWdhaW5zdCBvdGhlciBsb2Nh\nbCBvciByZW1vdGUgdGFyZ2V0cy4gQXQgbGVhc3QgMzAgaG9zdHMgd2VyZSBzY2FubmVkIGluIDEw\nIG1pbnV0ZXMuIA=="
-        }
-    },
-    "x_com_ibm_ariel": {
-        "event_name": "Local Database Scanner Detected - TargetedAttack (Exp Center)",
-        "qid": 67500707,
-        "category_name": "Database Reconnaissance",
-        "category_id": 1013,
-        "high_level_category_name": "Recon",
-        "high_level_category_id": 1000,
-        "log_source_id": 63,
-        "log_source_type_name": "Device type 63",
-        "log_source_name": "Custom Rule Engine-8 :: QRadar",
-        "direction": "L2L",
-        "identity_ip": "0.0.0.0",
-        "magnitude": 7,
-        "severity": 3,
-        "credibility": 10,
-        "relevance": 10,
-        "geographic": "other",
-        "cre_event_list": [
-            "122989",
-            "100132",
-            "100131",
-            "100033",
-            "100009",
-            "105739",
-            "100227",
-            "100225",
-            "100221",
-            "100272",
-            "100215",
-            "120739"
-        ],
-        "rule_names": [
-            "EC: Targeted - Local L2L Database Scanner",
-            "BB:CategoryDefinition: Recon Event Categories",
-            "BB:CategoryDefinition: Recon Events",
-            "BB:ProtocolDefinition: Windows Protocols",
-            "BB:PortDefinition: Database Ports",
-            "BB:CategoryDefinition: Source IP is a Third Country/Region",
-            "Source Asset Weight is Low",
-            "Source Asset Exists",
-            "Destination Asset Weight is Low",
-            "Load Basic Building Blocks",
-            "Context is Local to Local",
-            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region"
-        ],
-        "domain_id": 0,
-        "device_type_name": "Custom Rule Engine",
-        "device_type": 18
-    },
-    "first_observed": "2020-06-16T01:59:07.155Z",
-    "last_observed": "2020-06-16T01:59:07.155Z",
-    "number_observed": 1,
-    "x_com_ibm_finding": {
-        "name": "Local Database Scanner Detected - TargetedAttack (Exp Center)",
-        "description": "Detected a scan from a local host against other local or remote targets. At least 30 hosts were scanned in 10 minutes. "
-    }
-    ],
-    "type": "bundle"
+	"id": "bundle--c90fc61c-c0e2-467f-ab72-b95d910ecd1f",
+	"spec_version": "2.0",
+	"objects": {
+		"0": {
+			"type": "ipv4-addr",
+			"value": "192.168.10.69",
+			"resolves_to_refs": [
+				"2"
+			]
+		},
+		"1": {
+			"type": "network-traffic",
+			"src_ref": "0",
+			"src_port": 4356,
+			"dst_ref": "3",
+			"dst_port": 1433,
+			"protocols": [
+				"udp"
+			]
+		},
+		"2": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"3": {
+			"type": "ipv4-addr",
+			"value": "10.32.45.94",
+			"resolves_to_refs": [
+				"4"
+			]
+		},
+		"4": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"5": {
+			"type": "artifact",
+			"payload_bin": "TG9jYWwgRGF0YWJhc2UgU2Nhbm5lciBEZXRlY3RlZCAtIFRhcmdldGVkQXR0YWNrIChFeHAgQ2Vu\ndGVyKQlEZXRlY3RlZCBhIHNjYW4gZnJvbSBhIGxvY2FsIGhvc3QgYWdhaW5zdCBvdGhlciBsb2Nh\nbCBvciByZW1vdGUgdGFyZ2V0cy4gQXQgbGVhc3QgMzAgaG9zdHMgd2VyZSBzY2FubmVkIGluIDEw\nIG1pbnV0ZXMuIA=="
+		}
+	},
+	"x_com_ibm_ariel": {
+		"event_name": "Local Database Scanner Detected - TargetedAttack (Exp Center)",
+		"qid": 67500707,
+		"category_name": "Database Reconnaissance",
+		"category_id": 1013,
+		"high_level_category_name": "Recon",
+		"high_level_category_id": 1000,
+		"log_source_id": 63,
+		"log_source_type_name": "Device type 63",
+		"log_source_name": "Custom Rule Engine-8 :: QRadar",
+		"direction": "L2L",
+		"identity_ip": "0.0.0.0",
+		"magnitude": 7,
+		"severity": 3,
+		"credibility": 10,
+		"relevance": 10,
+		"geographic": "other",
+		"cre_event_list": [
+			"122989",
+			"100132",
+			"100131",
+			"100033",
+			"100009",
+			"105739",
+			"100227",
+			"100225",
+			"100221",
+			"100272",
+			"100215",
+			"120739"
+		],
+		"rule_names": [
+			"EC: Targeted - Local L2L Database Scanner",
+			"BB:CategoryDefinition: Recon Event Categories",
+			"BB:CategoryDefinition: Recon Events",
+			"BB:ProtocolDefinition: Windows Protocols",
+			"BB:PortDefinition: Database Ports",
+			"BB:CategoryDefinition: Source IP is a Third Country/Region",
+			"Source Asset Weight is Low",
+			"Source Asset Exists",
+			"Destination Asset Weight is Low",
+			"Load Basic Building Blocks",
+			"Context is Local to Local",
+			"ECBB:CategoryDefinition: Destination IP is a Third Country/Region"
+		],
+		"domain_id": 0,
+		"device_type_name": "Custom Rule Engine",
+		"device_type": 18
+	},
+	"first_observed": "2020-06-16T01:59:07.155Z",
+	"last_observed": "2020-06-16T01:59:07.155Z",
+	"number_observed": 1,
+	"x_com_ibm_finding": {
+		"name": "Local Database Scanner Detected - TargetedAttack (Exp Center)",
+		"description": "Detected a scan from a local host against other local or remote targets. At least 30 hosts were scanned in 10 minutes. "
+	},
+	"type": "bundle"
 }
