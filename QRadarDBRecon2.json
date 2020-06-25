@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+	"id": "bundle--c90fc61c-c0e2-467f-ab72-b95d910ecd1f",
+	"spec_version": "2.0",
+	"objects": {
+		"0": {
+			"type": "ipv4-addr",
+			"value": "192.168.10.69",
+			"resolves_to_refs": [
+				"2"
+			]
+		},
+		"1": {
+			"type": "network-traffic",
+			"src_ref": "0",
+			"src_port": 4356,
+			"dst_ref": "3",
+			"dst_port": 1433,
+			"protocols": [
+				"udp"
+			]
+		},
+		"2": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"3": {
+			"type": "ipv4-addr",
+			"value": "10.32.45.94",
+			"resolves_to_refs": [
+				"4"
+			]
+		},
+		"4": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"5": {
+			"type": "artifact",
+			"payload_bin": "TG9jYWwgRGF0YWJhc2UgU2Nhbm5lciBEZXRlY3RlZCAtIFRhcmdldGVkQXR0YWNrIChFeHAgQ2Vu\ndGVyKQlEZXRlY3RlZCBhIHNjYW4gZnJvbSBhIGxvY2FsIGhvc3QgYWdhaW5zdCBvdGhlciBsb2Nh\nbCBvciByZW1vdGUgdGFyZ2V0cy4gQXQgbGVhc3QgMzAgaG9zdHMgd2VyZSBzY2FubmVkIGluIDEw\nIG1pbnV0ZXMuIA=="
+		}
+	},
+
+	"type": "bundle"
+}
