@@ -1,63 +1,63 @@
 {
-    "_id": "b7c593efdf7801e3e578aa37fd0c9863",
-    "_rev": "1-7cb6facabd499204ed0d80981397821a",
-    "id": "observed-data--80596f74-3180-4755-bd85-185c45ed8d45",
-    "type": "observed-data",
-    "created_by_ref": "identity--a2db2859-7c74-403b-a4d8-83583700e6cf",
-    "created": "2020-06-16T01:04:51.933Z",
-    "modified": "2020-06-16T01:04:51.933Z",
-    "objects": {
-        "0": {
-            "type": "software",
-            "name": "Mail.SMTP"
-        },
-        "1": {
-            "type": "network-traffic",
-            "dst_byte_count": 1280876987,
-            "dst_ref": "2",
-            "dst_packets": 3269,
-            "dst_port": 25,
-            "protocols": [
-                "udp"
-            ],
-            "src_byte_count": 1280876987,
-            "src_ref": "3",
-            "src_packets": 3269,
-            "src_port": 32684
-        },
-        "2": {
-            "type": "ipv4-addr",
-            "value": "66.67.68.69"
-        },
-        "3": {
-            "type": "ipv4-addr",
-            "value": "192.168.10.69"
-        }
-    },
-    "x_com_ibm_ariel": {
-        "application_id": "1004",
-        "category_name": "Mail",
-        "credibility": 5,
-        "domain_id": 0,
-        "first_packet_time": "1592269283224",
-        "direction": "L2R",
-        "flow_interface_id": [
-            "55"
-        ],
-        "flow_source": [
-            "QRadar"
-        ],
-        "geographic": "NorthAmerica.UnitedStates",
-        "flow_interface": [
-            "QRadar:default_Netflow_192_168_200_165"
-        ],
-        "last_packet_time": "1592269288960",
-        "event_name": "Mail.SMTP",
-        "qid": 53250006,
-        "relevance": 6,
-        "severity": 1
-    },
-    "first_observed": "2020-06-16T01:01:23.224Z",
-    "last_observed": "2020-06-16T01:02:23.224Z",
-    "number_observed": 1
+	"_id": "b7c593efdf7801e3e578aa37fd0c9863",
+	"_rev": "1-7cb6facabd499204ed0d80981397821a",
+	"id": "observed-data--80596f74-3180-4755-bd85-185c45ed8d45",
+	"type": "observed-data",
+	"created_by_ref": "identity--a2db2859-7c74-403b-a4d8-83583700e6cf",
+	"created": "2020-06-16T01:04:51.933Z",
+	"modified": "2020-06-16T01:04:51.933Z",
+	"objects": {
+		"0": {
+			"type": "software",
+			"name": "Mail.SMTP"
+		},
+		"1": {
+			"type": "network-traffic",
+			"dst_byte_count": 1280876987,
+			"dst_ref": "2",
+			"dst_packets": 3269,
+			"dst_port": 25,
+			"protocols": [
+				"udp"
+			],
+			"src_byte_count": 1280876987,
+			"src_ref": "3",
+			"src_packets": 3269,
+			"src_port": 32684
+		},
+		"2": {
+			"type": "ipv4-addr",
+			"value": "66.67.68.69"
+		},
+		"3": {
+			"type": "ipv4-addr",
+			"value": "192.168.10.69"
+		}
+	},
+	"x_com_ibm_ariel": {
+		"application_id": "1004",
+		"category_name": "Mail",
+		"credibility": 5,
+		"domain_id": 0,
+		"first_packet_time": "1592269283224",
+		"direction": "L2R",
+		"flow_interface_id": [
+			"55"
+		],
+		"flow_source": [
+			"QRadar"
+		],
+		"geographic": "NorthAmerica.UnitedStates",
+		"flow_interface": [
+			"QRadar:default_Netflow_192_168_200_165"
+		],
+		"last_packet_time": "1592269288960",
+		"event_name": "Mail.SMTP",
+		"qid": 53250006,
+		"relevance": 6,
+		"severity": 1
+	},
+	"first_observed": "2020-06-16T01:01:23.224Z",
+	"last_observed": "2020-06-16T01:02:23.224Z",
+	"number_observed": 1
 }
