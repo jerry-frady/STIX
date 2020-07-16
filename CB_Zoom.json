@@ -1,0 +1,608 @@
+{
+    "id": "bundle--a625c45a-c49c-488c-a9c0-8ff9529ae1ad",
+    "objects": [
+        {
+            "created": "2020-05-06T11:42:37.424Z",
+            "id": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "identity_class": "system",
+            "modified": "2020-05-06T11:42:37.424Z",
+            "name": "zoom-installer.exe",
+            "type": "identity"
+        },
+        {
+            "created": "2020-05-06T16:59:16.578Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-05-06T16:59:16.578Z",
+            "id": "observed-data--626a6ca7-1145-4a66-b695-e1fe8090c319",
+            "last_observed": "2020-05-06T16:59:16.578Z",
+            "modified": "2020-05-06T16:59:16.578Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "C:\\File\\System\\zoom-installer.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV",
+                    "created": "2020-05-06T16:59:16.578Z",
+                    "creator_user_ref": "8",
+                    "name": "zoom-installer.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 7284,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "zoom-installer.exe",
+                    "pid": 800,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "url",
+                    "value": "https://213.188.152.96/recv7.php"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "107.189.7.179"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.5.100"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "Ricky Moore"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2020-05-06T13:05:54.972Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-05-06T13:05:54.972Z",
+            "id": "observed-data--e4f1d90e-0f50-4b60-ba20-89ac3a3e9f58",
+            "last_observed": "2020-05-06T13:05:54.972Z",
+            "modified": "2020-05-06T13:05:54.972Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "\"C:\\Program Files\\Common Files\\Apple\\Mobile Device Support\\AppleMobileDeviceService.exe\"",
+                    "created": "2020-05-06T13:05:54.972Z",
+                    "creator_user_ref": "8",
+                    "name": "zoom-installer.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 4956,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "zoom-installer.exe",
+                    "pid": 564,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "url",
+                    "value": "dabmaster.wm01.to"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "107.189.7.179"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.5.100"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "Ricky Moore"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2020-05-06T13:05:55.782Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-05-06T13:05:55.782Z",
+            "id": "observed-data--9e1a8ec9-21e1-43a0-acc8-6e69eced2d21",
+            "last_observed": "2020-05-06T13:05:55.782Z",
+            "modified": "2020-05-06T13:05:55.782Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "C:\\File\\System\\zoom-installer.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV",
+                    "created": "2020-05-06T13:05:55.782Z",
+                    "creator_user_ref": "8",
+                    "name": "zoom-installer.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 7672,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "zoom-installer.exe",
+                    "pid": 564,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "url",
+                    "value": "dabmaster.wm01.to"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "107.189.7.179"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.5.101"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "Jackie Owens"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2020-05-06T13:05:55.782Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-05-06T13:05:55.782Z",
+            "id": "observed-data--6d694299-b685-4131-a18b-a8893e1dd653",
+            "last_observed": "2020-05-06T13:05:55.782Z",
+            "modified": "2020-05-06T13:05:55.782Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "C:\\File\\System\\zoom-installer.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV",
+                    "created": "2020-05-06T13:05:55.782Z",
+                    "creator_user_ref": "8",
+                    "name": "zoom-installer.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 7672,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "zoom-installer.exe",
+                    "pid": 564,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "url",
+                    "value": "dabmaster.wm01.to"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "107.189.7.179"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.5.101"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "Jackie Owens"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2020-05-06T13:05:59.127Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-05-06T13:05:59.127Z",
+            "id": "observed-data--1c3a53f0-621b-43fd-bcfb-c1f051edc31f",
+            "last_observed": "2020-05-06T13:05:59.127Z",
+            "modified": "2020-05-06T13:05:59.127Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "\"C:\\Program Files (x86)\\zoom-installer\\zoom-installer.exe\"",
+                    "created": "2020-05-06T13:05:59.127Z",
+                    "creator_user_ref": "8",
+                    "name": "zoom-installer.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 8824,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "zoom-installer.exe",
+                    "pid": 5180,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "url",
+                    "value": "dabmaster.wm01.to"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "107.189.7.179"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.5.102"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "Jose Brown"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2020-05-06T13:05:59.127Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-05-06T13:05:59.127Z",
+            "id": "observed-data--50cf225e-e1df-4046-b889-f929f7ab99ca",
+            "last_observed": "2020-05-06T13:05:59.127Z",
+            "modified": "2020-05-06T13:05:59.127Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "\"C:\\Program Files (x86)\\zoom-installer\\zoom-installer.exe\"",
+                    "created": "2020-05-06T13:05:59.127Z",
+                    "creator_user_ref": "8",
+                    "name": "zoom-installer.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 8824,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "zoom-installer.exe",
+                    "pid": 5180,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "url",
+                    "value": "https://213.188.152.96/recv7.php"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "107.189.7.179"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.5.102"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "Jose Brown"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2020-05-06T13:05:59.127Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-05-06T13:05:59.127Z",
+            "id": "observed-data--6c778f59-35a0-456d-ab40-8e1f4d805ccb",
+            "last_observed": "2020-05-06T13:05:59.127Z",
+            "modified": "2020-05-06T13:05:59.127Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "\"C:\\Program Files (x86)\\zoom-installer\\zoom-installer.exe\"",
+                    "created": "2020-05-06T13:05:59.127Z",
+                    "creator_user_ref": "8",
+                    "name": "zoom-installer.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 8824,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "zoom-installer.exe",
+                    "pid": 5180,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "url",
+                    "value": "https://213.188.152.96/recv7.php"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "107.189.7.179"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.5.100"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "Ricky Moore"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2020-05-06T13:19:19.434Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-05-06T13:19:19.434Z",
+            "id": "observed-data--ef26b072-c06e-47a9-9ad8-0d465aba56cf",
+            "last_observed": "2020-05-06T13:19:19.434Z",
+            "modified": "2020-05-06T13:19:19.434Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "C:\\ProgramData\\{4CEC2908-5CE4-48F0-A717-8FC833D8017A}\\0.1.233\\{88D332D8-3F68-477D-9BCB-6FD6B421487D}\\dwm.exe --run --input-ipc=860 --output-ipc=872 --hidden --krb=true --instance=__4d98170f1ec2d0a4ef5617639a583807af1f1fe2",
+                    "created": "2020-05-06T13:19:19.434Z",
+                    "creator_user_ref": "8",
+                    "name": "zoom-installer.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 15020,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "zoom-installer.exe",
+                    "pid": 11856,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "url",
+                    "value": "https://213.188.152.96/recv7.php"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "107.189.7.179"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.5.104"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "Tony Nicoll"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2020-05-06T13:19:19.434Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-05-06T13:19:19.434Z",
+            "id": "observed-data--703c0d68-1f57-4307-9131-136197842e43",
+            "last_observed": "2020-05-06T13:19:19.434Z",
+            "modified": "2020-05-06T13:19:19.434Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "C:\\ProgramData\\{4CEC2908-5CE4-48F0-A717-8FC833D8017A}\\0.1.233\\{88D332D8-3F68-477D-9BCB-6FD6B421487D}\\dwm.exe --run --input-ipc=860 --output-ipc=872 --hidden --krb=true --instance=__4d98170f1ec2d0a4ef5617639a583807af1f1fe2",
+                    "created": "2020-05-06T13:19:19.434Z",
+                    "creator_user_ref": "8",
+                    "name": "zoom-installer.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 15020,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "SHA": "753418831fcf215fe2d00ed33b9d2f1ed78bc92355e780c782fb35228007318e"
+                    },
+                    "name": "zoom-installer.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "zoom-installer.exe",
+                    "pid": 11856,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "url",
+                    "value": "https://213.188.152.96/recv7.php"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "107.189.7.179"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.5.104"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "Tony Nicoll"
+                }
+            },
+            "type": "observed-data"
+        }
+    ],
+    "type": "bundle"
+}
