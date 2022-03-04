@@ -1,0 +1,121 @@
+{
+    "type": "bundle",
+    "id": "bundle--936071be-0427-4880-a7e6-7cb3c3a9d73c",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--d232b1aa-2cae-4c1f-a91c-1db6e9e4ec6a",
+            "created": "2022-03-04T17:56:31.858Z",
+            "modified": "2022-03-04T17:56:31.858Z",
+            "name": "splunk",
+            "identity_class": "system"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--32370d49-a7c4-4370-8715-6603f5a54b04",
+            "created": "2022-03-04T17:56:31.860Z",
+            "modified": "2022-03-04T17:56:31.860Z",
+            "first_observed": "2022-03-04T11:57:35.843211Z",
+            "last_observed": "2022-03-04T11:57:35.843211Z",
+            "number_observed": 6,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60"
+                },
+                "1": {
+                    "type": "url",
+                    "value": "https://team.stagingapps.xyz/wp-b/rEdd45f"
+                },
+                "2": {
+                    "type": "domain-name",
+                    "value": "team.stagingapps.xyz"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "80.153.75.103"
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "3",
+                    "src_port": 50239,
+                    "dst_port": 443,
+                    "protocols": [
+                        "https"
+                    ]
+                },
+                "5": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "6"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "6": {
+                    "type": "x-oca-asset",
+                    "hostname": "workstation1.sg2.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--4fc89143-2b70-4ee1-a1f1-f6f8d3b08bff",
+            "created": "2022-03-04T17:56:31.863Z",
+            "modified": "2022-03-04T17:56:31.863Z",
+            "first_observed": "2022-03-04T11:58:20.843484Z",
+            "last_observed": "2022-03-04T11:58:20.843484Z",
+            "number_observed": 6,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "80.153.75.103"
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "3",
+                    "src_port": 6667,
+                    "dst_port": 6667,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "5": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "6"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "6": {
+                    "type": "x-oca-asset",
+                    "hostname": "workstation1.sg2.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,180 @@
+{
+    "type": "bundle",
+    "id": "bundle--f0cf9caa-571a-4f09-9383-3f5970af7a35",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--ea4e5fde-4c48-4c49-9a1a-0a34c584ddfa",
+            "created": "2022-03-04T17:56:31.898Z",
+            "modified": "2022-03-04T17:56:31.898Z",
+            "name": "AWS",
+            "identity_class": "events"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--f5430b56-3767-4316-a672-f9073b7faa8c",
+            "created": "2022-03-04T17:56:31.898Z",
+            "modified": "2022-03-04T17:56:31.898Z",
+            "first_observed": "2022-03-04T11:57:14.843211Z",
+            "last_observed": "2022-03-04T11:57:14.843211Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:39:13:4b"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "url",
+                    "value": "https://team.stagingapps.xyz/wp-b/rEdd45f"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "dan"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--13b8026e-3055-44b0-9a33-85b79310ff54",
+            "created": "2022-03-04T17:56:31.900Z",
+            "modified": "2022-03-04T17:56:31.900Z",
+            "first_observed": "2022-03-04T11:58:14.843484Z",
+            "last_observed": "2022-03-04T11:58:14.843484Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:39:13:4b"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "80.153.75.103"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "1",
+                    "dst_ref": "2",
+                    "protocols": [
+                        "tcp"
+                    ]
+                },
+                "4": {
+                    "type": "user-account",
+                    "user_id": "dan"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--e30b8067-85f6-4237-96de-7ae23eefcc58",
+            "created": "2022-03-04T17:56:31.901Z",
+            "modified": "2022-03-04T17:56:31.901Z",
+            "first_observed": "2022-03-04T11:59:13.843368Z",
+            "last_observed": "2022-03-04T11:59:13.843368Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:39:13:4b"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "process",
+                    "pid": 2551614464460,
+                    "name": "cpd"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "dan"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--0a91c5eb-57b2-4687-90e2-7192d168979c",
+            "created": "2022-03-04T17:56:31.903Z",
+            "modified": "2022-03-04T17:56:31.903Z",
+            "first_observed": "2022-03-04T12:00:14.843424Z",
+            "last_observed": "2022-03-04T12:00:14.843424Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:39:13:4b"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "process",
+                    "pid": 25556188564469,
+                    "name": "install_upgrade"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "dan"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--f455923a-c3f0-469a-ae84-12963b836ffd",
+            "created": "2022-03-04T17:56:31.905Z",
+            "modified": "2022-03-04T17:56:31.905Z",
+            "first_observed": "2022-03-04T12:01:24.843305Z",
+            "last_observed": "2022-03-04T12:01:24.843305Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:39:13:4b"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "file",
+                    "hashes": {
+                        "MD5": "d01e2c2e8df92edeb8298c55211bc4b6",
+                        "SHA-1": "3adf9a59743bc5d8399f67cab5eb2daf28b9b863",
+                        "SHA-256": "50df5734dd0c6c5983c21278f119527f9fdf6ef1d7e808a29754ebc5253e9a86"
+                    },
+                    "name": "cpd"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "dan"
+                }
+            }
+        }
+    ]
+}
