@@ -58,7 +58,7 @@
                     "user_id": "test"
                 },
                 "7": {
-                    "type": "URL",
+                    "type": "url",
                     "value": "https://restore-mywellsfargo03d.com"
                 },
                 "8": {
