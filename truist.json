@@ -12,7 +12,7 @@
         {
             "id": "observed-data--e2717c9d-4eb6-41fe-90b2-dead702e36d3",
             "type": "observed-data",
-            "created": "2022-08-17T04:12:07.335Z",
+            "created": "2022-08-17T01:01:07.335Z",
             "objects": {
                 "0": {
                     "type": "x-crowdstrike",
@@ -38,7 +38,7 @@
                 },
                 "4": {
                     "type": "url",
-                    "value": "https://restore-mywellsfargo03d.com"
+                    "value": "restore-mywellsfargo03d.com"
                 },
                 "5": {
                     "type": "ipv4-addr",
@@ -85,16 +85,16 @@
                     "account_login": "dan"
                 }
             },
-            "modified": "2022-08-17T04:12:07.335Z",
-            "last_observed": "2022-08-17T04:12:07.335Z",
+            "modified": "2022-08-17T01:01:07.335Z",
+            "last_observed": "2022-08-17T01:01:07.335Z",
             "created_by_ref": "identity--ab920cb1-239b-4371-b7f6-66f634de9927",
-            "first_observed": "2022-08-17T04:12:07.335Z",
+            "first_observed": "2022-08-17T01:01:07.335Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--48536613-242d-45df-bc66-ef524e9a3a20",
             "type": "observed-data",
-            "created": "2022-08-17T04:12:11.000Z",
+            "created": "2022-08-17T01:01:11.000Z",
             "objects": {
                 "0": {
                     "id": "CIDD706957",
@@ -146,16 +146,16 @@
                     "value": "172.20.13.104"
                 }
             },
-            "modified": "2022-08-17T04:12:11.000Z",
-            "last_observed": "2022-08-17T04:12:11.000Z",
+            "modified": "2022-08-17T01:01:11.000Z",
+            "last_observed": "2022-08-17T01:01:11.000Z",
             "created_by_ref": "identity--ab920cb1-239b-4371-b7f6-66f634de9927",
-            "first_observed": "2022-08-17T04:12:11.000Z",
+            "first_observed": "2022-08-17T01:01:11.000Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--287f2859-d67b-4c41-855c-5d07917c7972",
             "type": "observed-data",
-            "created": "2022-08-17T04:12:50.857Z",
+            "created": "2022-08-17T01:01:50.857Z",
             "objects": {
                 "0": {
                     "id": "CIDD706957",
@@ -207,10 +207,10 @@
                     "value": "172.20.13.104"
                 }
             },
-            "modified": "2022-08-17T04:12:50.857Z",
-            "last_observed": "2022-08-17T04:12:50.857Z",
+            "modified": "2022-08-17T01:01:50.857Z",
+            "last_observed": "2022-08-17T01:01:50.857Z",
             "created_by_ref": "identity--ab920cb1-239b-4371-b7f6-66f634de9927",
-            "first_observed": "2022-08-17T04:12:50.857Z",
+            "first_observed": "2022-08-17T01:01:50.857Z",
             "number_observed": 1
         },
         {
