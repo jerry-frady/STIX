@@ -1,0 +1,106 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e9bb422b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Find Windows shells launched non-interactively (i.e. not from explorer.exe)\n",
+    "procs = GET process FROM https://stix-bundles.s3.us-east.cloud-object-storage.appdomain.cloud/demo_bundle.json\n",
+    "        WHERE [process:binary_ref.name IN ('cmd.exe', 'powershell.exe') AND process:parent_ref.binary_ref.name != 'explorer.exe'] "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cfd0aaff",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Find the netconns created by powershell\n",
+    "conns = FIND network-traffic CREATED BY procs"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "aaa30244",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Apply Threat Intelligence Service (TIS) enrichment on those connections \n",
+    "APPLY tis-enrich ON conns"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8dd9ec78",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Find the process(es) that created those shells\n",
+    "parents = FIND process CREATED procs"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a13cbda8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Look for any files touched by the parent process (i.e the ones that launched the shells)\n",
+    "files = FIND file LINKED parents"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c6af6d58",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Look up the hashes of those files\n",
+    "APPLY tis-enrich ON files"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "89cac979",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Filter those files looking for Word docs\n",
+    "susp_files = files WHERE name LIKE '%.docx'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e3129b15",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Find all my assets where this all happened\n",
+    "assets = FIND x-oca-asset LINKED procs"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Kestrel",
+   "language": "kestrel",
+   "name": "kestrel"
+  },
+  "language_info": {
+   "codemirror_mode": "kestrel",
+   "name": "Kestrel"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
